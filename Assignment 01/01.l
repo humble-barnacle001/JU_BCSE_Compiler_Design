@@ -6,31 +6,31 @@ int nlines,nwords,nchars;
 
 %%
 \n {
-	nchars++;
-	nlines++; 
+    nchars++;
+    nlines++;
 }
- 
+
 [^ \n\t]+ {
-	nwords++;
-	nchars=nchars+yyleng;
+    nwords++;
+    nchars=nchars+yyleng;
 }
 
 . {
-	nchars++;
+    nchars++;
 }
 %%
 
 int yywrap(void)  
 {
- 	return 1;
+    return 1;
 }
 
 int main(int argc, char*argv[]) 
 {
-	yyin=fopen(argv[1],"r");
-	yylex();
-	nlines+=1;
-	printf("Lines = %d\nWords = %d\nCharacters = %d\n",nlines,nwords,nchars);
+    yyin=fopen(argv[1],"r");
+    yylex();
+    nlines+=1;
+    printf("Lines = %d\nWords = %d\nCharacters = %d\n",nlines,nwords,nchars);
 
- return 0;
+    return 0;
 } 
