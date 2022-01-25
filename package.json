@@ -1,0 +1,30 @@
+{
+    "name": "compiler-design-assignment",
+    "version": "1.0.0",
+    "description": "Assignments related to Compiler Design for BCSE course",
+    "main": "index.js",
+    "scripts": {
+        "upload": "node index.js",
+        "start": "npm run upload"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/humble-barnacle001/JU_BCSE_Compiler_Design.git"
+    },
+    "keywords": [
+        "dropbox",
+        "lex",
+        "yacc"
+    ],
+    "author": "Rwitick Ghosh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/humble-barnacle001/JU_BCSE_Compiler_Design/issues"
+    },
+    "homepage": "https://github.com/humble-barnacle001/JU_BCSE_Compiler_Design#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^14.2.0",
+        "dropbox": "^10.23.0"
+    }
+}
