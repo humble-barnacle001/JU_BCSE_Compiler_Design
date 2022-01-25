@@ -6,6 +6,11 @@ name: Upload to Dropbox CI
 on:
   push:
     branches: [ main ]
+    paths:
+    - 'Assignment [0-9][1-9]/**'
+    - '**.yml'
+    - 'index.js'
+    - 'package*.json'
   workflow_dispatch:
 
 jobs:
