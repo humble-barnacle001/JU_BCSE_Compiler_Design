@@ -24,7 +24,7 @@ jobs:
       run: npm ci
     - name: Add .env file
       run: |
-        printf "dropboxToken={{ secrets.DROPBOX_TOKEN }}\nrepoName=\"JU BCSE Compiler Design\"" > .env
+        printf "dropboxToken=${{ secrets.DROPBOX_TOKEN }}\nrepoName=\"JU BCSE Compiler Design\"" > .env
         ([ -f '.env' ] && echo "File write success") || echo "Error writing .env file"
     - name: Run upload command
       run: npm run upload
