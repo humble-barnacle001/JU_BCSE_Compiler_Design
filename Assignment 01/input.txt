@@ -1,9 +1,11 @@
 This is a test file
 34 314 21a 25
-PICTURE 9.6 e
+PICTURE 9.6 eating I owe u.io Oranges
 2,5 1.2f 2.
 -9 2d -2.5 -8a -1.a0
-Words
-Hello worlds
+Words A nice place
+Hello worlds :)
 Many new worlds
-Contains 5 integers and 3.0 floats
+Contains 11 lines, 53.0 words, 276 characters 
+Contains 10 words starting with vowels
+Contains 8 integers and 4.0 floats
