@@ -1,5 +1,4 @@
 /* Write a lex file to count the number of words in an input text that start with a vowel.*/
-/* Write a lex file to count the number of lines, words, and characters in the input. */
 
 %{
 int nwords;
