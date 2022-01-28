@@ -1,4 +1,9 @@
 #!/bin/bash
+if ! command -v lex &> /dev/null
+then
+    sudo apt install -y flex
+fi
+
 if [[ -z "$1" || ! -f $1.l ]]
 then
     echo "File does not exist"

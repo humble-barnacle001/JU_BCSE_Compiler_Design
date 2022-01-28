@@ -1,6 +1,9 @@
 This is a test file
-34 314 21a
-PICTURE
+34 314 21a 25
+PICTURE 9.6 e
+2,5 1.2f 2.
+-9 2d -2.5 -8a -1.a0
 Words
 Hello worlds
 Many new worlds
+Contains 5 integers and 3.0 floats
